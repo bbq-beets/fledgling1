@@ -1,0 +1,16 @@
+name: Sleeper
+
+on:
+  workflow_dispatch:
+
+jobs:
+  sleep:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Run a one-line script
+        run: |
+          echo Sleeper is starting
+          sleep 30s
+          echo Sleeper is ending
+
