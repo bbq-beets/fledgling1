@@ -11,6 +11,6 @@ jobs:
       - name: Run a one-line script
         run: |
           echo Sleeper is starting
-          sleep 30s
+          sleep 600s
           echo Sleeper is ending
 
